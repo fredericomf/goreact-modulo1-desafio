@@ -2,10 +2,10 @@ import React from 'react';
 import PostHeader from './PostHeader';
 
 const Post = ({ postData }) => (
-  <React.Fragment>
+  <div className="post">
     <PostHeader postData={postData} />
     <p className="post-text">{postData.post}</p>
-  </React.Fragment>
+  </div>
 );
 
 export default Post;
